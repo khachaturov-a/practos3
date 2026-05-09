@@ -13,6 +13,8 @@ builder.Services.AddDbContext<ShopContext>(options =>
 
 builder.Services.AddScoped<IBeadService, BeadService>();
 
+builder.Services.AddHealthChecks();
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
@@ -147,4 +149,6 @@ app.MapPost("/api/products", async (Chetkas newItem, IBeadService service, ShopC
 .Produces(400);
 
 
-app.Run("http://localhost:7777");
+app.MapHealthChecks("/health");
+
+app.Run();

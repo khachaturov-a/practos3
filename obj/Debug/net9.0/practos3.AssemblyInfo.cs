@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("practos3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+927f79fac8559831119c094a6ecc0d3af741a131")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+46889a33efda3a5a97b1f82d2e1c63f2dbc0180c")]
 [assembly: System.Reflection.AssemblyProductAttribute("practos3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("practos3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
