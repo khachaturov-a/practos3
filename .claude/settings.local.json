@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__ide__getDiagnostics",
+      "Read(//mnt/d/MyDriver/KSIPO/**)",
+      "Bash(dotnet add *)",
+      "Bash(grep -E \"\\\\.\\(pdf|txt\\)$\")",
+      "PowerShell(Get-ChildItem \"D:\\\\MyDriver\\\\KSIPO\\\\\" -File | Where-Object { $_.Extension -in '.pdf','.txt' } | Select-Object FullName)",
+      "Bash(dotnet build *)",
+      "PowerShell(Get-Content *)",
+      "PowerShell(Get-NetTCPConnection *)"
+    ]
+  }
+}
